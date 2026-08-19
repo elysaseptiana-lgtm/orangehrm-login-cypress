@@ -1,0 +1,36 @@
+{
+  "valid": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+
+  "invalidUsername": {
+    "username": "Wrong User",
+    "password": "admin123"
+  },
+
+  "invalidPassword": {
+    "username": "Admin",
+    "password": "ngasal123"
+  },
+
+  "invalidBoth": {
+    "username": "Wrong User",
+    "password": "ngasal123"
+  },
+
+  "lowercase": {
+    "username": "admin",
+    "password": "admin123"
+  },
+
+  "uppercase": {
+    "username": "ADMIN",
+    "password": "admin123"
+  },
+
+  "longText": {
+    "username": "abcdefghijklmnopqrstuvwxyzqwertyuiopasdfghjklzxcvbnm",
+    "password": "admin123"
+  }
+}
