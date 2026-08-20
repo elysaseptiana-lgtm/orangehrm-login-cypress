@@ -1,0 +1,11 @@
+{
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "jobTitle": "QA Engineer",
+  "vacancy": "Payroll Administrator",
+  "status": "Shortlisted",
+  "interviewStatus": "Interview Scheduled",
+  "invalidKeyword": "Zxcvbnmasdfgh",
+  "dateFrom": "2026-06-30",
+  "dateTo": "2026-01-01"
+}

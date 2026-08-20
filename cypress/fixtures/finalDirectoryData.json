@@ -1,0 +1,10 @@
+{
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "validEmployee": "Peter Mac Anderson",
+  "employeeKeyword": "Peter",
+  "autocompleteKeyword": "Pet",
+  "jobTitle": "QA Engineer",
+  "location": "New York Sales Office",
+  "invalidEmployee": "Zxcvbnmasdfgh"
+}

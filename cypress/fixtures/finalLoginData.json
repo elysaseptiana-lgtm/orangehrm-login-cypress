@@ -1,0 +1,7 @@
+{
+  "validUsername": "Admin",
+  "validPassword": "admin123",
+  "invalidUsername": "Wrong User",
+  "invalidPassword": "ngasal123",
+  "longUsername": "abcdefghijklmnopqrstuvwxyzqwertyuiopasdfghjklzxcvbnm"
+}
