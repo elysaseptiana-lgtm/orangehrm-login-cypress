@@ -70,20 +70,16 @@ describe('API Automation - Categories', () => {
 
   const categoryName = `Elysa Cypress Category ${Date.now()}`
 
-  cy.request({
-    method: 'POST',
-    url: 'https://api.escuelajs.co/api/v1/categories/',
-    body: {
+    cy.request('POST', 'https://api.escuelajs.co/api/v1/categories/', {
       name: categoryName,
       image: 'https://placehold.co/600x400'
-    }
-  }).then((response) => {
-    expect(response.status).to.eq(201)
-    expect(response.body.name).to.eq(categoryName)
-  })
-
+      })
+      .then((response) => {
+        expect(response.status).to.eq(201)
+        expect(response.body.name).to.eq(categoryName)
+      })
+    
 })
-
   it('TC_10 - Get categories with limit 5', () => {
     cy.request('GET', 'https://api.escuelajs.co/api/v1/categories?offset=0&limit=5')
       .then((response) => {
