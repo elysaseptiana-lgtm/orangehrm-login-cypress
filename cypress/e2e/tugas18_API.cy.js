@@ -67,17 +67,21 @@ describe('API Automation - Categories', () => {
   })
 
   it('TC_09 - Create new category', () => {
+
+  const categoryName = `Elysa Cypress Category ${Date.now()}`
+
   cy.request({
     method: 'POST',
     url: 'https://api.escuelajs.co/api/v1/categories/',
     body: {
-      name: 'Elysa Cypress Category',
+      name: categoryName,
       image: 'https://placehold.co/600x400'
     }
   }).then((response) => {
     expect(response.status).to.eq(201)
-    expect(response.body.name).to.eq('Elysa Cypress Category')
+    expect(response.body.name).to.eq(categoryName)
   })
+
 })
 
   it('TC_10 - Get categories with limit 5', () => {
